@@ -1,0 +1,55 @@
+<!-- visitor_card_layout.xml -->
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <!-- Your card view content here, e.g., TextViews for name and status, buttons for actions -->
+    <!-- Example: -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visitor Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/roleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="Visitor Role" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/allowButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00FF00"
+                android:text="Allow" />
+
+            <Button
+                android:id="@+id/restrictButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="#FF0000"
+                android:layout_weight="1"
+                android:text="Restrict" />
+        </LinearLayout>
+
+        <!-- Other TextViews, Buttons, etc. -->
+        <!-- Add buttons for allow and restrict actions -->
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

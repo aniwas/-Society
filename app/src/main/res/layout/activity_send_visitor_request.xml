@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".sendVisitorRequest">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:hint="Visitor Name"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DAD3D3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/roleEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:hint="Visitor Role"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DAD3D3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/flatNoEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="108dp"
+        android:ems="10"
+        android:hint="FlatNo To Visit"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#DAD3D3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sendRequstButton"
+        android:layout_width="141dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="163dp"
+        android:background="#610524"
+        android:text="Send Request"
+        android:textColor="#DAD3D3"
+        android:textColorHint="#DAD3D3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flatNoEditText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

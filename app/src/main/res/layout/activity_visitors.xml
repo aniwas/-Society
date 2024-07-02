@@ -1,0 +1,43 @@
+<TableLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Header row -->
+    <TableRow tools:ignore="UselessParent" android:background="#49031B">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visitor Name"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visitor Role"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allow"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restrict"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </TableRow>
+
+</TableLayout>
